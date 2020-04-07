@@ -3,7 +3,8 @@ Docker-compose for Penguin
 
 ## limitations
 
-currently, you can access to this container in your PC.
+Currently, you can access to this container in your PC.
+You can't use this containers remotely.
 
 ## How to use
 
@@ -27,4 +28,10 @@ If you have any trouble, the logging message may help you.
 ```
 docker-compose logs -f
 ```
+
+## TODO
+
+- adding something level of security for user authentication with TLS.
+- making containers for the on-premise version.
+- making containers for the cloud version.
 
