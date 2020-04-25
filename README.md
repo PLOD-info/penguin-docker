@@ -25,6 +25,18 @@ If you have installed the containers in your local PC,
 http://YOUR_HOST_ADDRESS:8981
 ```
 
+If you want to stop the service, type blow.
+
+```
+docker-compose down
+```
+
+All data are stored into the db directory.
+Hence, they are remained after you stop the service.
+You can reuse is later.
+
+## Stop to expose the penguin service to the open network.
+
 If you don't want to expose the service to the open network,
 you have to change the variable PENGUIN_PORT in the .env file like below.
 
