@@ -1,6 +1,8 @@
 Docker-compose for Penguin
 ==========================
 
+Note that the penguin service by this containers will be exposed to the open network by default.  See below if you want to change it.
+
 ## How to use
 
 ```
@@ -9,10 +11,9 @@ cd penguin-docker
 ```
 
 Run the penguin service.
-Note that the penguin service will be exposed to the open network by default.
 
 ```
-docker-compose build
+docker-compose build --pull
 docker-compose up -d
 ```
 
