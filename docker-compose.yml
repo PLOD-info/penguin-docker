@@ -33,8 +33,6 @@ services:
   mongo-express:
     container_name: penguin-mongo-express
     image: mongo-express
-    #build: 
-    #    context: ./mongo-express
     depends_on:
       - mongo
     restart: always
